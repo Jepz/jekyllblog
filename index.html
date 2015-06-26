@@ -18,6 +18,20 @@ layout: default
     {% endfor %}
   </ul>
 
+	<section class="bs-docs-sektion">
+		<h1 id="first-level" class="page-header">Header</h1>
+		<h2 id="sub-section">Seond level</h2>
+		<h3 id="another-sub-section">Still second level</h3>
+	</section>
+	
+	{% highlight html %}
+	<div>Some <b>HTML</b></div>
+	{% endhighlight %}
+	
+	{% highlight javascript %}
+	alert('some javascript');
+	{% endhighlight %}
+
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
