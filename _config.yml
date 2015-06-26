@@ -10,4 +10,4 @@ github_username:  jepz
 
 # Build settings
 markdown: kramdown
-baseurl: /
+url: "http://jepz.one"
