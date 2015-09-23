@@ -269,6 +269,8 @@ pre {
   list-style: none; }
   .post-list > li {
     margin-bottom: 30px; }
+    .post-list > li > span {
+      float: right; }
 
 .post-meta {
   font-size: 14px;
