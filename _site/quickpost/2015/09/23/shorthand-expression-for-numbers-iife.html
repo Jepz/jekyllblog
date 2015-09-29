@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Shorthand expression for numbers (IIFE)</title>
-  <meta name="description" content="I just came across to check if a variable is a number without using Number(). It’s the shorthand way to make sure that variables in a function are Numbers an...">
+  <meta name="description" content="Came a neat check if a variable is a number without using Number(). It’s the shorthand way to make sure that variables in a function are Numbers and not a st...">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://jepz.one/quickpost/2015/09/23/shorthand-expression-for-numbers-iife.html">
@@ -59,7 +59,7 @@
   </header>
 
   <article class="post-content">
-    <p>I just came across to check if a variable is a number without using Number(). It’s the shorthand way to make sure that variables in a function are Numbers and not a string is to add an expression to it. 
+    <p>Came a neat check if a variable is a number without using Number(). It’s the shorthand way to make sure that variables in a function are Numbers and not a string is to add an expression to it. 
  Exampel:</p>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">+</span><span class="n">value</span> <span class="o">&lt;=</span> <span class="n">numb</span> <span class="o">&amp;&amp;</span> <span class="o">+</span><span class="n">value</span><span class="o">[+</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="o">]</span> <span class="o">&gt;</span> <span class="n">numb</span><span class="p">)</span></code></pre></div>
@@ -69,7 +69,7 @@
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">+</span><span class="s2">&quot;1&quot;</span> <span class="o">-&gt;</span> <span class="mi">1</span> 
 <span class="o">+</span><span class="s2">&quot;Hello&quot;</span> <span class="o">-&gt;</span> <span class="no">NaN</span></code></pre></div>
 
-<p>A string that is a number will den be 1, but if its not it will be NaN. This could also crash you application so good practice is to check if the +value = true then to fucntion.</p>
+<p>A string that is a number will then be 1, but if its not it will be NaN. This could also crash you application so good practice is to check if the +value = true then to fucntion.</p>
 
 <p><a href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/" title="Ben Alman - Immediately-Invoked Function Expression (IIFE)">Ben Alman</a> deep dives into the topic so read his take on it. Also check out <a href="http://stackoverflow.com/questions/13341698/javascript-plus-sign-in-front-of-function-name" title="Stackoverflow - JavaScript plus sign in front of function name">Stackoverflow - JavaScript plus sign in front of function name</a>, it helped me out.</p>
 
