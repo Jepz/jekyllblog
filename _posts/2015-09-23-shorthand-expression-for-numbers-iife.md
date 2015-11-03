@@ -2,7 +2,7 @@
 layout: post
 title:  "Shorthand expression for numbers (IIFE)"
 date:   2015-09-23 17:00
-categories: quickpost
+categories: post
 ---
 Came a neat check if a variable is a number without using Number(). It's the shorthand way to make sure that variables in a function are Numbers and not a string is to add an expression to it. 
  Exampel:
